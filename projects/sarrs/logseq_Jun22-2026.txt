@@ -1,0 +1,22 @@
+- #sarrs
+- record new entry
+	- enter barcode => check for uniqueness
+	- action buttons
+		- save => save to db; status = open
+		- close => don't save, exit
+		- submit => save to db; status = submitted
+		- save & new => save to db; go to enter barcode
+	- Detail of Record
+		- can type be changed? ( single <-> multiple )
+			- are previous records/DB entries deleted if changed?
+- record listings
+	- status, desc, contract, fms, storage, barcode, date archived, box #, last/first name, saved by
+	- does everyone see every record or just records entered by user?
+		- admin sees every record?
+- record search
+	- barcode/keyword - searches everywhere
+	- records returned are read-only?
+- record search - Admin
+	- searches only barcode
+- record print: is it a fillable PDF?
+- submit: email notifications?
