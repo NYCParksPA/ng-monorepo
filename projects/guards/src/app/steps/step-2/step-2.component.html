@@ -1,0 +1,23 @@
+<section class="step-wrapper">
+    <div>[Header]</div>
+
+    <div>[stepper] -2-</div>
+
+    <div class="field">
+        <label for="occupationId">Occupation:</label>
+        <select id="occupationId" name="occupation" placeholder="- Select -">
+            @for( option of selections; track option.id ) {
+                <option value="option.label">{{option.label}}</option>
+            }
+        </select>
+    </div>
+    <div class="field">
+        <label for="yearsExperienceId">Years of Experience</label>
+        <input id="yearsExperienceId" name="yearsExperience" type="number">
+    </div>
+
+    <div class="step-nav">
+        <a [routerLink]="['/steps/step-3']">Next</a>
+    </div>
+</section>
+

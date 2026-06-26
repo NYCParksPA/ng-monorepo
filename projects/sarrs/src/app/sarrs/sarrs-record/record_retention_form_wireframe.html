@@ -1,0 +1,194 @@
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:var(--font-sans)}
+.page{padding:1rem 0;max-width:680px}
+.section-card{background:var(--color-background-primary);border:0.5px solid var(--color-border-tertiary);border-radius:var(--border-radius-lg);padding:1.25rem;margin-bottom:1rem}
+.section-title{font-size:15px;font-weight:500;color:var(--color-text-primary);margin-bottom:1rem;padding-bottom:.5rem;border-bottom:0.5px solid var(--color-border-tertiary)}
+.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px 24px}
+.field{display:flex;flex-direction:column;gap:4px}
+.field.full{grid-column:1/-1}
+.field label{font-size:12px;color:var(--color-text-secondary)}
+.field input,.field select,.field textarea{width:100%;border:0.5px solid var(--color-border-secondary);border-radius:var(--border-radius-md);padding:6px 10px;font-size:13px;background:var(--color-background-secondary);color:var(--color-text-primary)}
+.field textarea{resize:vertical;min-height:60px}
+.inline-group{display:flex;gap:8px;align-items:center}
+.inline-group input{flex:1}
+.inline-group span{font-size:12px;color:var(--color-text-secondary);white-space:nowrap}
+.date-range{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.radio-group{display:flex;gap:16px;align-items:center}
+.radio-group label{font-size:13px;color:var(--color-text-primary);display:flex;gap:6px;align-items:center;cursor:pointer}
+.tabs{display:flex;gap:0;border-bottom:0.5px solid var(--color-border-tertiary);margin-bottom:1rem}
+.tab{padding:6px 16px;font-size:13px;cursor:pointer;border-bottom:2px solid transparent;color:var(--color-text-secondary)}
+.tab.active{color:var(--color-text-primary);border-bottom-color:var(--color-text-primary);font-weight:500}
+.checkbox-row{display:flex;align-items:center;gap:8px;font-size:13px;color:var(--color-text-secondary);margin-bottom:12px;justify-content:center}
+.search-field{display:flex;gap:6px;align-items:center}
+.search-field input{flex:1}
+.btn-icon{width:30px;height:30px;border:0.5px solid var(--color-border-secondary);border-radius:var(--border-radius-md);background:var(--color-background-secondary);display:flex;align-items:center;justify-content:center;cursor:pointer;color:var(--color-text-secondary)}
+.btn-clear{padding:6px 16px;background:var(--color-background-danger);color:var(--color-text-danger);border:0.5px solid var(--color-border-danger);border-radius:var(--border-radius-md);font-size:13px;cursor:pointer;margin-left:auto;display:block}
+.action-bar{display:flex;justify-content:flex-end;gap:8px;margin-top:1rem}
+.btn{padding:7px 20px;font-size:13px;border-radius:var(--border-radius-md);cursor:pointer;border:0.5px solid var(--color-border-secondary);background:var(--color-background-secondary);color:var(--color-text-primary)}
+.btn.primary{background:var(--color-background-info);border-color:var(--color-border-info);color:var(--color-text-info);font-weight:500}
+</style>
+
+<h2 class="sr-only">Record retention archive entry form wireframe</h2>
+
+<div class="page">
+
+  <div class="section-card">
+    <div class="section-title">Record to be archived <span style="font-size:11px;font-weight:400;color:var(--color-text-secondary)">(all fields required)</span></div>
+    <div class="form-grid">
+
+      <div class="field">
+        <label>Barcode number</label>
+        <div class="inline-group">
+          <select style="width:90px"><option>—</option></select>
+          <input type="text" placeholder="Barcode" />
+        </div>
+      </div>
+
+      <div class="field">
+        <label>Box number</label>
+        <div class="inline-group">
+          <select style="width:70px"><option>BH</option></select>
+          <input type="text" placeholder="0056" />
+        </div>
+      </div>
+
+      <div class="field">
+        <label>Div / dept name</label>
+        <select><option>Blue Print / Document</option></select>
+      </div>
+
+      <div class="field">
+        <label>Borough / bureau</label>
+        <input type="text" value="Capital Projects" />
+      </div>
+
+      <div class="field">
+        <label>Division / department number</label>
+        <input type="text" value="05-012" />
+      </div>
+
+      <div class="field">
+        <label>Box date range</label>
+        <div class="radio-group">
+          <label><input type="radio" name="daterange" checked /> Specific dates</label>
+          <label><input type="radio" name="daterange" /> Years range</label>
+        </div>
+        <div class="date-range" style="margin-top:6px">
+          <input type="text" placeholder="From mm/dd/yyyy" />
+          <input type="text" placeholder="To mm/dd/yyyy" />
+        </div>
+      </div>
+
+      <div class="field">
+        <label>Record series number</label>
+        <input type="text" value="23272" />
+      </div>
+
+      <div class="field" style="visibility:hidden"></div>
+
+      <div class="field">
+        <label>Record type</label>
+        <select><option>Blue / Designs Print Files</option></select>
+      </div>
+
+      <div class="field">
+        <label>Box content sequence</label>
+        <div class="inline-group">
+          <span>From</span>
+          <input type="text" />
+          <span>To</span>
+          <input type="text" />
+        </div>
+      </div>
+
+      <div class="field full">
+        <label>Description of box content</label>
+        <textarea rows="3"></textarea>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="section-card">
+    <div class="section-title">Detail of record <span style="font-size:11px;font-weight:400;color:var(--color-text-secondary)">(optional)</span></div>
+    <div class="tabs">
+      <div class="tab active" onclick="switchTab(this,'projects')">Projects</div>
+      <div class="tab" onclick="switchTab(this,'breakdown')">Break-down</div>
+    </div>
+
+    <div id="tab-projects">
+      <div class="checkbox-row">
+        <input type="checkbox" id="mc" />
+        <label for="mc">Multiple contracts</label>
+      </div>
+      <div class="form-grid">
+        <div class="field">
+          <label>Contract no.</label>
+          <div class="search-field">
+            <input type="text" />
+            <div class="btn-icon"><i class="ti ti-search" aria-hidden="true" style="font-size:15px"></i></div>
+          </div>
+        </div>
+        <div class="field">
+          <label>FMS ID</label>
+          <div class="search-field">
+            <input type="text" />
+            <div class="btn-icon"><i class="ti ti-search" aria-hidden="true" style="font-size:15px"></i></div>
+          </div>
+        </div>
+        <div class="field">
+          <label>Registration no.</label>
+          <input type="text" />
+        </div>
+        <div class="field"></div>
+        <div class="field full">
+          <label>Contract description</label>
+          <textarea rows="3"></textarea>
+        </div>
+        <div class="field">
+          <label>Order to work date</label>
+          <input type="text" placeholder="mm/dd/yyyy" />
+        </div>
+        <div class="field">
+          <label>Final inspection</label>
+          <input type="text" placeholder="mm/dd/yyyy" />
+        </div>
+        <div class="field">
+          <label>Guarantee inspection</label>
+          <input type="text" placeholder="mm/dd/yyyy" />
+        </div>
+        <div class="field" style="display:flex;align-items:flex-end">
+          <button class="btn-clear">Clear</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="tab-breakdown" style="display:none">
+      <p style="font-size:13px;color:var(--color-text-secondary);padding:1rem 0">Break-down fields go here.</p>
+    </div>
+  </div>
+
+  <div class="section-card">
+    <div class="field full">
+      <label>Comments</label>
+      <textarea rows="4"></textarea>
+    </div>
+  </div>
+
+  <div class="action-bar">
+    <button class="btn">Cancel</button>
+    <button class="btn">Clear all</button>
+    <button class="btn primary">Save record</button>
+  </div>
+
+</div>
+
+<script>
+function switchTab(el, id) {
+  document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+  el.classList.add('active');
+  document.getElementById('tab-projects').style.display = id === 'projects' ? '' : 'none';
+  document.getElementById('tab-breakdown').style.display = id === 'breakdown' ? '' : 'none';
+}
+</script>

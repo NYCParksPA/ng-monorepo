@@ -1,0 +1,37 @@
+#s-m-container {
+    border:1px solid darkolivegreen;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap: .25;
+    background-color: var(--p-surface-200);
+
+    div {
+        border: 1px solid var(--hot-red);
+        background-color: var(--p-surface-50);
+    }
+}
+
+.sm1 {
+    
+    border:1px solid darkorange;
+    div {
+        // border:1px solid lightgray;
+    }
+}
+
+input#yrToId {
+    background-color: beige;
+}
+input#yrToId:invalid {
+    background-color: red;
+}
+
+
+.grid > .col, .grid > [class*=col] {
+
+    background-color: azure;
+    color: initial;
+    padding: 0.5rem 0;
+    border:1px solid navajowhite;
+}
+

@@ -1,0 +1,33 @@
+
+<section class="grid">
+    <header class="col-12">
+        User Mode: <p-selectbutton 
+            [options]="usermode['options']" [(ngModel)]="usermode['selected']"
+            optionLabel="label" optionValue="value" aria-labelledby="basic"
+            (onOptionClick)="usermodeSelection($event)"
+            />
+    </header>
+
+    <aside class="col-fixed border-1 border-orange-500" style="width:15rem">
+        <ul class="menupanel-menu">
+            @for( item of menuItems['user']; track item.id ) {
+                <li>
+                    <p-button [label]="item['label']" />
+                </li>
+            }
+        </ul>
+        @if( usermode['selected'] == 'admin' ) {
+            <ul class="menupanel-menu">
+                @for( item of menuItems['admin']; track item?.['id'] ) {
+                    <li>
+                    <p-button [label]="item['label']" [icon]="item['icon']" />
+                </li>
+                }
+            </ul>
+        }
+    </aside>
+
+    <div class="col">
+        <app-sarrs-main />
+    </div>
+</section>

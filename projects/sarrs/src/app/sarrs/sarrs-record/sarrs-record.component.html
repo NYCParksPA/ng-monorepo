@@ -1,0 +1,109 @@
+<section>
+    <fieldset>
+        <legend>Personal Information</legend>
+        <div>
+            <table>
+                <tr>
+                    <td>James Bond</td><td>jbond (at) parks.nyc.gov</td>
+                </tr>
+                <tr>
+                    <td colspan="2">Director, Special Units</td>
+                </tr>
+                <tr>
+                    <td>Last Update</td><td>{{today | date: 'short'}}</td>
+                </tr>
+            </table>
+        </div>
+    </fieldset>
+
+
+    <div class="grid">
+        <div class="col-6">
+            <div class="grid grid-nogutter">
+            <div class="col-4">
+                <label class="col-12 mb-2 md:col-2 md:mb-0">Barcode</label>
+            </div>
+            <div class="col-8">
+                <p-select [options]="options"></p-select> <input pInputText />
+            </div>
+
+            <div class="col-4">
+                <label class="col-12 mb-2 md:col-2 md:mb-0">Div/Dept Name</label>
+            </div>
+            <div class="col-8"> <p-select [options]="options" class="w-full"></p-select> </div>
+            <!-- read only-->
+            <div class="col-4"> <label>Div/Dept Number</label> </div>
+            <div class="col-8"> <input pInputText readonly type="number" value="1787"> </div>
+            <div class="col-4"> <label>Record Series Number</label> </div>
+            <div class="col-8"> <input pInputText readonly type="number" value="8647"> </div>
+            <!-- read only-->
+
+            <div class="col-4"><label>Record Type</label></div>
+            <div class="col-8"><p-select [options]="options" class="w-full"></p-select></div>
+
+            <div class="col-4"><label>Box Content Sequence</label></div>
+            <div class="col-4"><label>From: <input pInputText type="number"></label></div>
+            <div class="col-4"><label>To: <input pInputText type="number"></label></div>
+            </div>
+        </div> <!-- left -->
+
+        <div class="col-6"> <!-- right -->
+            <div class="grid grid-nogutter">
+            <div class="col-4"><label>Box Number</label></div>
+            <div class="col-8">
+                <p-select [options]="options"></p-select>
+                <input pInputText >
+            </div>
+
+            <div class="col-4"><label for="idBoroughBureau">Borough/Bureau</label></div>
+            <div class="col-8"><input pInputText type="text" id="idBoroughBureau"></div>
+
+            <div class="col-4"><label>Box Date Range</label></div>
+            <div class="col-8">
+                <p-select [options]="dateRangeOptions" (onChange)="changeBoxDateRange($event)"></p-select>
+            </div>
+            <div class="col-4">Years:</div>
+            <div class="col-8">
+                <div class="grid grid-nogutter">
+                    <div class="col-6">
+                        <p-iftalabel> <p-inputnumber size="small" /><label>From:</label> </p-iftalabel>
+                    </div>
+                    <div colspan="6">
+                        <p-iftalabel> <p-inputnumber size="small" /><label>To:</label> </p-iftalabel>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">Dates:</div>
+            <div class="col-8">
+                <p-iftalabel> <p-datepicker [(ngModel)]="boxDateRange['from']"  showIcon size="small" /><label>From:</label> </p-iftalabel>
+                <p-iftalabel> <p-datepicker [(ngModel)]="boxDateRange['to']"  showIcon size="small" /><label>To:</label> </p-iftalabel>
+            </div>
+            </div>
+        </div> <!-- right -->
+    </div>
+
+    <div> [Detail of Records] </div>
+
+    <div> [Comments] </div>
+
+    <div> [Attachment] </div>
+
+    <div>
+        <div class="flex gap-3 p-4 surface-card border-round shadow-2">
+            <div class="bg-primary p-3">Box 1</div>
+            <div class="bg-primary p-3">Box 2</div>
+        </div>
+    </div>
+
+    <nav class="flex justify-content-between">
+        <div>
+            <p-button label="Save" severity="info" size="small" class="mr-2" type="submit" />
+            <p-button label="Submit" severity="success" size="small"></p-button>
+        </div>
+
+        <div>
+            <p-button label="Print" severity="info" size="small"></p-button>
+            <p-button label="Close" severity="danger" size="small"></p-button>
+        </div>
+    </nav>
+</section>

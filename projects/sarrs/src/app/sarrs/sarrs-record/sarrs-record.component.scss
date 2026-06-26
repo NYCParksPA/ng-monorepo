@@ -1,0 +1,25 @@
+:host {
+    background-color: var(--p-surface-200);
+}
+
+table {
+    width: 98%;
+    margin: 0 auto;
+}
+.section-card, .section-card-2 {
+    background: var(--p-primary);
+    border: 0.5px solid var(--p-primary-400);
+    border-radius: var(--p-border-radius-lg);
+    padding: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.section-card-2 {
+    border-radius: var(--border-radius);
+}
+
+nav {
+    border:1px solid silver;
+    margin: 1rem 0;
+    background-color: var(--p-surface-400);
+}

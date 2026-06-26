@@ -1,0 +1,19 @@
+required: 
+	barcode
+	division { name:string, number:string }
+	recordNumber
+	recordType
+	boxNumber
+	borough
+	boxRange { yearsFrom, yearsTo; datesFrom,datesTo }
+	boxSequence
+	
+detailOfRecord
+	projects
+		contractNo
+		fmsId
+		registrationNo
+		desciption
+		orderToWorkDate, finalInspectionDate, guaranteeDate
+	
+		

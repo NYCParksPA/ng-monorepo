@@ -1,0 +1,42 @@
+:host {
+    --border-radius: .5rem;
+}
+
+header {
+    border:1px solid burlywood;
+    flex-basis: 100%;
+
+}
+
+#sarrs-container {
+    border:1px solid darkolivegreen;
+    background-color: var(--gray-400);
+    display: grid;
+    grid-template-columns: 15em 1fr;
+    gap: .125rem;
+
+    #container-menupanel {
+        border:1px solid lightgray;
+        border-radius: var(--border-radius);
+        background-color: white;
+        // width: 15em;
+
+        ul.menupanel-menu {
+            border: 1px solid red;
+            list-style: none;
+            padding: 0;
+
+            li {
+                margin: .25rem;
+            }
+        }
+    }
+    
+    #container-content {
+        // flex-grow: 1;
+        border:2px solid purple;
+        border-radius: var(--border-radius);
+        background-color: white;
+        // margin: .25rem;
+    }
+}

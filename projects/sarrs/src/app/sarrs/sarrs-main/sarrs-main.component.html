@@ -1,0 +1,96 @@
+<form (ngSubmit)="onSubmit()">
+<section class="grid grid-nogutter sm1">
+    <div class="col-6 border border-500">
+        <div class="grid grid-nogutter">
+            <div class="col-3"><label>Barcode:</label></div>
+            <div class="col-9 flex align-items-center">
+                <p-select [options]="options" class=""/>
+                <input pInputText class="flex-1" />
+            </div>
+
+            <div class="col-3">Division/Department Name</div>
+            <div class="col-9">
+                <p-select [options]="options" class="w-11"/>
+            </div>
+
+            <!-- readonly -->
+            <div class="col-3">Division/Department Number</div>
+            <div class="col-9"> <input pInputText class="w-11" /> </div>
+            <div class="col-3">Record Series Number</div>
+            <div class="col-9"> <input pInputText class="w-11" /> </div>
+            <!-- readonly -->
+
+            <div class="col-3"><label>Record Type</label></div>
+            <div class="col-9">
+                <p-select [options]="options" class="w-11 md:w-56" />
+            </div>
+        </div> 
+    </div> <!-- LEFT -->
+
+    <div class="col-6">
+        <div class="grid grid-nogutter">
+            <div class="col-3"><label>Box Number</label></div>
+            <div class="col-9">
+                <p-select [options]="options" />
+                <input />
+            </div>
+            <div class="col-3"><label>Borough/Bureau</label></div>
+            <div class="col-9">
+                <input pInputText readonly />
+            </div>
+            <div class="col-3"><label>Box Date Range</label></div>
+            <div class="col-9">
+                <p-select #dateRangleOptionsRef [options]="dateRangeOptions" />
+
+                @if( dateRangleOptionsRef.value == 'dates') {
+                    <div class="inline-block">
+                        From:<input type="date" /> To:<input type="date" />
+                    </div>
+                }
+                @if( dateRangleOptionsRef.value == 'years') {
+                    <div class="inline-block">
+                        From: <input type="number" min="1980" max="2100" inputmode="numeric" />
+                        To: <input id="yrToId" type="number" min="1980" max="2100" inputmode="numeric" />
+                        <div class="yrToErrMsg"></div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div> <!-- RIGHT -->
+
+    <div class="col-12">
+        <label>Description</label>
+        <textarea rows="5" style="width:90%; margin:0 auto;"></textarea>
+    </div>
+</section>
+
+
+<section class="grid grid-nogutter mt-2 sm1">
+    <div class="col-12">
+        <div class="flex p-2">
+            <div class="flex flex-none"  style="border:1px solid black"> Block One</div>
+            <div class="flex flex-grow-1 text-center align-items-center justify-content-center"  style="border:1px solid black"> Block Two</div>
+        </div>
+    </div>
+    <div class="col-12">
+        <div class="inline-block">
+            <span class="text-lg">Detail of Records</span> (optional)
+        </div>
+        <div class="inline-block text-center border-1 border-500">
+            <p-checkbox inputId="size_large" name="size" value="Large" size="large" />
+            <label for="size_large" class="text-lg">Multiple Contracts?</label>
+        </div>
+    </div>
+        <!--
+        <div class="flex items-center gap-2">
+            <p-checkbox inputId="size_large" name="size" value="Large" size="large" />
+            <label for="size_large" class="text-lg">Multiple Contracts?</label>
+        </div>
+        -->
+
+    <div class="col-12 border border-1">
+        <p>The latest builds of Windows 10 and Windows 11 include a built-in SSH server and client that are based on OpenSSH, a connectivity tool for remote sign-in that uses the SSH protocol. OpenSSH encrypts all traffic between client and server to eliminate eavesdropping, connection hijacking, and other attacks.</p>
+    </div>
+</section>
+
+</form>
