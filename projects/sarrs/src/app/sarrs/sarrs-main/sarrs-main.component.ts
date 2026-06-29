@@ -5,6 +5,7 @@ import { InputGroupAddon } from 'primeng/inputgroupaddon';
 import { SelectModule } from 'primeng/select';
 import { SHARED_IMPORTS } from '../sarrs-common-imports';
 import { CheckboxModule } from 'primeng/checkbox';
+import { SarrsEntryformDorComponent } from "./sarrs-entryform-dor/sarrs-entryform-dor.component";
 
 interface City {
     name: string;
@@ -13,7 +14,7 @@ interface City {
 
 @Component({
   selector: 'app-sarrs-main',
-  imports: [ FormsModule, InputGroup, InputGroupAddon, SelectModule, SHARED_IMPORTS, CheckboxModule ],
+  imports: [FormsModule, InputGroup, InputGroupAddon, SelectModule, SHARED_IMPORTS, CheckboxModule, SarrsEntryformDorComponent],
   templateUrl: './sarrs-main.component.html',
   styleUrls: [ '../sarrs-common.scss', './sarrs-main.component.scss']
 })

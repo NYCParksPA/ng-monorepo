@@ -68,7 +68,8 @@
           },
           "defaultConfiguration": "development",
           "options": {
-            "port": 7000
+            "port": 7000,
+            "host": "0.0.0.0"
           }
         },
         "extract-i18n": {
@@ -166,7 +167,8 @@
             }
           },
           "options": {
-              "port": 7001
+              "port": 7001,
+              "host": "0.0.0.0"
           },
           "defaultConfiguration": "development"
         },
