@@ -1,0 +1,114 @@
+<h3>Record to Archive</h3>
+<section class="grid grid-nogutter mt-3 mb-3 border-1 border-round form-grid-1">
+    <!-- LEFT -->
+    <div class="col-6 p-2">
+        <dl class="form-1-list">
+            <dt><label>Barcode Number</label></dt>
+            <dd>
+                <div class="grid grid-nogutter">
+                    <div class="col-fixed">
+                        <p-select [options]="options" class="w-11 md:w-56"  pSize="small" />
+                    </div>
+                    <div class="col-auto">
+                        <input pInputText type="text" name="barcode" id="barcode" required size="small">
+                    </div>
+                </div>
+            </dd>
+
+            <dt><label>Division/Department Name</label></dt>
+            <dd>
+                <p-select [options]="options" class="w-11 md:w-56" />
+            </dd>
+
+            <dt>
+            </dt>
+            <dd style="border:1px solid lightgrey;">
+                <div class="grid grid-nogutter">
+                    <div class="col-6 text-left">
+                        <label>Div/Dept Number</label>
+                        <input pInputText type="text" name="recordSeriesNumber" id="recordSeriesNumber" readonly class="w-11">
+                    </div>
+                    <div class="col-6 text-right">
+                        <label>Record Series Number</label>
+                        <input pInputText type="text" name="recordSeriesNumber" id="recordSeriesNumber" readonly class="w-11">
+                    </div>
+                </div>
+            </dd>
+
+            <dt><label>Record Type</label></dt>
+            <dd> <p-select [options]="options" class="w-11" /> </dd>
+
+            <dt> <label>Box Content Sequence</label></dt>
+            <dd>
+                <div class="grid grid-nogutter">
+                    <div class="col-6 text-left"><input type="text" pInputText class="w-11" /></div>
+                    <div class="col-6 text-right"><input type="text" pInputText class="w-11" /></div>
+                </div>
+            </dd>
+
+        </dl>
+    </div>
+
+    <!-- RIGHT -->
+    <div class="col-6 p-2">
+        <dl class="form-1-list">
+            <dt><label>Box Number</label></dt>
+            <dd class="grid grid-nogutter">
+                <div class="col-fixed border border-1 border-300"> <p-select [options]="options"></p-select> </div>
+                <div class="col-auto border border-1 border-300"> <input type="text" pInputText class="" /> </div>
+            </dd>
+
+            <dt><label>Borough/Bureau</label></dt>
+            <dd><input type="text" pInputText value="Capital Projects" readonly> </dd>
+
+            <dt><label>Box Date Range (1)</label></dt>
+            <dd>
+                <div class="grid grid-nogutter">
+                    <div class="col-fixed">
+                        <p-select #boxDateRangeRef [options]="boxDateRangeOptions" />
+                    </div>
+                    <div class="col-auto">
+                        @if( boxDateRangeRef.value == 'dates' ) {
+                            <div id="boxDateRangeDate">
+                                <div class="inline-block w-full">
+                                    <div> <span style="display:inline-block; width:3rem;">From:</span> <p-datepicker></p-datepicker> </div>
+                                    <div> <span style="display:inline-block; width:3rem;">To:</span> <p-datepicker /> </div>
+                                </div>
+                            </div>
+                        }
+                        @if( boxDateRangeRef.value == 'years' ) {
+                            <div id="boxDateRangeYear">
+                                <div class="inline-block w-full">
+                                    <div> <span style="display:inline-block; width:3rem;">From:</span> <input pInputText  inputmode="numeric" /> </div>
+                                    <div> <span style="display:inline-block; width:3rem;">To:</span> <input pInputText inputmode="numeric" /> </div>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </dd>
+
+            <dt><label>Box Date Range (2)</label></dt>
+            <dd>
+                <div>
+                    <div><p-select #boxDateRange2Ref [options]="boxDateRangeOptions" class="w-full" /></div>
+                    <div class="grid grid-nogutter">
+                        @if( boxDateRange2Ref.value == 'years' ) {
+                        <div class="col-6 text-center"><input type="text" pInputText class="w-11"></div><div class="col-6 text-center"><input type="text" pInputText class="w-11"></div>
+                        } @else {
+                        <div class="col-6 text-center"><p-datepicker class="w-11" /></div><div class="col-6 text-center"><p-datepicker class="w-11" /></div>
+                        }
+                    </div>
+                </div>
+            </dd>
+        </dl>
+    </div>
+
+    <div class="col-12">
+        <label>Description</label>
+        <div class="text-center">
+        <textarea pTextarea rows="5" name="notes" id="notes" placeholder="Notes" class="w-11 border-round"></textarea>
+        </div>
+    </div>
+
+</section>

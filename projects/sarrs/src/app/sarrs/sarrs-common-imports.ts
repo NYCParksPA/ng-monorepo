@@ -29,6 +29,7 @@ import { TabsModule } from 'primeng/tabs';
 import { TagModule } from 'primeng/tag';
 import { TooltipModule } from 'primeng/tooltip';
 import { BlockUIModule } from 'primeng/blockui';
+import { TextareaModule } from 'primeng/textarea';
 
 
 
@@ -53,6 +54,7 @@ export const SHARED_IMPORTS = [
     TableModule,
     TabsModule,
     TagModule,
+    TextareaModule,
     TooltipModule
 ];
 

@@ -1,0 +1,719 @@
+{
+"stg_archive": [
+	{
+		"NYP_ZZ_CONTR_NO1" : "XG-31700-201M",
+		"NYP_ZZ_FMS_NO1" : null
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "X019-198M",
+		"NYP_ZZ_FMS_NO1" : null
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "X253-105M",
+		"NYP_ZZ_FMS_NO1" : null
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "XG-808M (Supersedes X304-108M and X307-108M)",
+		"NYP_ZZ_FMS_NO1" : "846 P-102POOL"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "X040-504M",
+		"NYP_ZZ_FMS_NO1" : null
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "X295-106M",
+		"NYP_ZZ_FMS_NO1" : "P-104HALF"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "X001-207M\/507M",
+		"NYP_ZZ_FMS_NO1" : null
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "X004-106m",
+		"NYP_ZZ_FMS_NO1" : null
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "X004-103M",
+		"NYP_ZZ_FMS_NO1" : "P-102BRGW"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "X039-303M",
+		"NYP_ZZ_FMS_NO1" : null
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "X092-108M-OMBP",
+		"NYP_ZZ_FMS_NO1" : null
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "QG-907M",
+		"NYP_ZZ_FMS_NO1" : "P-4QERIVE"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "QG-907M",
+		"NYP_ZZ_FMS_NO1" : "P-4QERIVE"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "QG-907M",
+		"NYP_ZZ_FMS_NO1" : "P-4QERIVE"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "QG-907M",
+		"NYP_ZZ_FMS_NO1" : "P-4QERIVE"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "QG-907M",
+		"NYP_ZZ_FMS_NO1" : "P-4QERIVE"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "QG-907M",
+		"NYP_ZZ_FMS_NO1" : "P-4QERIVE"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "Q403-111M",
+		"NYP_ZZ_FMS_NO1" : "P-4PS183P"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "Q403-111M",
+		"NYP_ZZ_FMS_NO1" : "P-4PS183P"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "X136-106M",
+		"NYP_ZZ_FMS_NO1" : "846 P-1CROT19"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "X088-406M",
+		"NYP_ZZ_FMS_NO1" : null
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "Q-174-105M",
+		"NYP_ZZ_FMS_NO1" : null
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "QG-1005M",
+		"NYP_ZZ_FMS_NO1" : null
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "QG-1205M",
+		"NYP_ZZ_FMS_NO1" : null
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "X034-107M",
+		"NYP_ZZ_FMS_NO1" : "846 P-1CROT49"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "X126-406M (-106, -206, -306, -406 are in the same box.)",
+		"NYP_ZZ_FMS_NO1" : "846 P-1CROT66"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "X155-102M",
+		"NYP_ZZ_FMS_NO1" : "846 P-1PATTER"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "X252-102MA BATHGATE AVE PARK -  BALLFIELD & MISCELLANEOUS WORK",
+		"NYP_ZZ_FMS_NO1" : "846 P-1BATHGA"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "X271-106M",
+		"NYP_ZZ_FMS_NO1" : "846 P-1CROT69"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "X243-108M",
+		"NYP_ZZ_FMS_NO1" : null
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "X260-105M",
+		"NYP_ZZ_FMS_NO1" : "846 P-1CROT50"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : null,
+		"NYP_ZZ_FMS_NO1" : "846 P-1CRO42A"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "X104-102M",
+		"NYP_ZZ_FMS_NO1" : null
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "B073-395",
+		"NYP_ZZ_FMS_NO1" : "P-200K01B"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "B073-395",
+		"NYP_ZZ_FMS_NO1" : "P-200K01B"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "B073-594A",
+		"NYP_ZZ_FMS_NO1" : "P-200412C"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "B073-875",
+		"NYP_ZZ_FMS_NO1" : null
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "B169-192-OMBP",
+		"NYP_ZZ_FMS_NO1" : "P-213C24A"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "M010-490-OMBP",
+		"NYP_ZZ_FMS_NO1" : null
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "M026-197-OMBP",
+		"NYP_ZZ_FMS_NO1" : "P-312C018"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "M108-196-OMBP",
+		"NYP_ZZ_FMS_NO1" : "P-308245A"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "M108-197-OMBP",
+		"NYP_ZZ_FMS_NO1" : "P-303475C"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "M194-197-OMBP",
+		"NYP_ZZ_FMS_NO1" : "P-303SMTH"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "X026-197-OMBP",
+		"NYP_ZZ_FMS_NO1" : null
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "X034-397-OMBP",
+		"NYP_ZZ_FMS_NO1" : "P-104MULL"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "X237-197-OMBP",
+		"NYP_ZZ_FMS_NO1" : "P-104882F"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "X237-496-OMBP",
+		"NYP_ZZ_FMS_NO1" : "P-104882Y"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "B326-195",
+		"NYP_ZZ_FMS_NO1" : "P-206K011"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "B351-195",
+		"NYP_ZZ_FMS_NO1" : "P-203922M"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "BG-295",
+		"NYP_ZZ_FMS_NO1" : "P-214C171"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "BG-395",
+		"NYP_ZZ_FMS_NO1" : "P-2BW1018"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "BG-495",
+		"NYP_ZZ_FMS_NO1" : "P-2BWEQSS"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "Q086-194",
+		"NYP_ZZ_FMS_NO1" : "P-407019A"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "Q086-194",
+		"NYP_ZZ_FMS_NO1" : "P-407019A"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "R005-195",
+		"NYP_ZZ_FMS_NO1" : "P-501RINK"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "R008-197A1-OMBP",
+		"NYP_ZZ_FMS_NO1" : "P-501009A"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "R026-187",
+		"NYP_ZZ_FMS_NO1" : "P-503DUGN"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "R030-195",
+		"NYP_ZZ_FMS_NO1" : "P-502ARCH"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "R046-195",
+		"NYP_ZZ_FMS_NO1" : "P-502WALK"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "R046-196",
+		"NYP_ZZ_FMS_NO1" : "P-502FIRE"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "X002-695",
+		"NYP_ZZ_FMS_NO1" : "P-106BOST"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "X004-295",
+		"NYP_ZZ_FMS_NO1" : "P-112SHOE"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "X013-195",
+		"NYP_ZZ_FMS_NO1" : "P-107DEVO"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "X039-195A",
+		"NYP_ZZ_FMS_NO1" : "P-110715Q"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "X041-195",
+		"NYP_ZZ_FMS_NO1" : "P-101PULA"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "X191-194A1",
+		"NYP_ZZ_FMS_NO1" : "P-110C953"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "X201-195",
+		"NYP_ZZ_FMS_NO1" : "P-108SETO"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "X221-195",
+		"NYP_ZZ_FMS_NO1" : "P-109EINS"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "X233-195",
+		"NYP_ZZ_FMS_NO1" : "P-101PONC"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "X262-195",
+		"NYP_ZZ_FMS_NO1" : "P-109BOLT"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "CNYG-1095",
+		"NYP_ZZ_FMS_NO1" : "P-6CWASB5"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "CNYG-1295",
+		"NYP_ZZ_FMS_NO1" : "P-6CWSAF1"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "CNYG-1395",
+		"NYP_ZZ_FMS_NO1" : "P-6CWCHL0"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "CNYG-1695",
+		"NYP_ZZ_FMS_NO1" : null
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "CNYG-1696",
+		"NYP_ZZ_FMS_NO1" : "VARIOUS"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "CNYG-1995",
+		"NYP_ZZ_FMS_NO1" : "P-6CWASB5"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "CNYG-2194A",
+		"NYP_ZZ_FMS_NO1" : "VARIOUS"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "CNYG-995",
+		"NYP_ZZ_FMS_NO1" : "P-6CC036B"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "Q139-195",
+		"NYP_ZZ_FMS_NO1" : "P-405019A"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "Q162-196",
+		"NYP_ZZ_FMS_NO1" : "P-414581S"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "Q163-195",
+		"NYP_ZZ_FMS_NO1" : "P-414025C"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "Q174-195",
+		"NYP_ZZ_FMS_NO1" : "P-401036A"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "Q218-195",
+		"NYP_ZZ_FMS_NO1" : "P-401019C"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "Q299-195",
+		"NYP_ZZ_FMS_NO1" : "P-403245E"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "QG-196",
+		"NYP_ZZ_FMS_NO1" : "P-4BW8226"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "QG-996",
+		"NYP_ZZ_FMS_NO1" : "P-4BW8226"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "CNYG-1296",
+		"NYP_ZZ_FMS_NO1" : null
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "CNYG-1396",
+		"NYP_ZZ_FMS_NO1" : "VARIOUS"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "CNYG-1496",
+		"NYP_ZZ_FMS_NO1" : "VARIOUS"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "CNYG-1596",
+		"NYP_ZZ_FMS_NO1" : "P-6CWTEBA"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "CNYG-296",
+		"NYP_ZZ_FMS_NO1" : "P-6CWASBR"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "CNYG-296",
+		"NYP_ZZ_FMS_NO1" : "P-6CWASBR"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "CNYG-396",
+		"NYP_ZZ_FMS_NO1" : "P-6CWASBR"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "CNYG-496",
+		"NYP_ZZ_FMS_NO1" : "P-6CWASBR"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "CNYG-596",
+		"NYP_ZZ_FMS_NO1" : "P-6CC822D"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "CNYG-696",
+		"NYP_ZZ_FMS_NO1" : "P-6CW144D"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "CNYG-2395",
+		"NYP_ZZ_FMS_NO1" : null
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "CNYG-2695",
+		"NYP_ZZ_FMS_NO1" : "P-6CWASB5"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "CNYG-2795",
+		"NYP_ZZ_FMS_NO1" : "P-6CC822C"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "CNYG-2895",
+		"NYP_ZZ_FMS_NO1" : "P-6CW8225"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "CNYG-2995",
+		"NYP_ZZ_FMS_NO1" : null
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "CNYG-3095",
+		"NYP_ZZ_FMS_NO1" : null
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "CNYG-3195",
+		"NYP_ZZ_FMS_NO1" : null
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "CNYG-3295",
+		"NYP_ZZ_FMS_NO1" : "P-6CW144D"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "CNYG-3395",
+		"NYP_ZZ_FMS_NO1" : "P-401247A"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "CNYG-3495A1",
+		"NYP_ZZ_FMS_NO1" : "P-6CWSPRY"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "CNYG-3495A1",
+		"NYP_ZZ_FMS_NO1" : "P-6CWSPRY"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "QG-801MAR",
+		"NYP_ZZ_FMS_NO1" : "P-4BAREQ3"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "CNYG-1796",
+		"NYP_ZZ_FMS_NO1" : "P-6CWASB7"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "CNYG-1896",
+		"NYP_ZZ_FMS_NO1" : "P-6CWASB7"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "CNYG-197",
+		"NYP_ZZ_FMS_NO1" : "P-6CWBD97"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "CNYG-1996",
+		"NYP_ZZ_FMS_NO1" : "P-6CWASB7"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "CNYG-297",
+		"NYP_ZZ_FMS_NO1" : "P-6CC8227"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "CNYG-397",
+		"NYP_ZZ_FMS_NO1" : "P-6CWSHWR"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "CNYG-497",
+		"NYP_ZZ_FMS_NO1" : "VARIOUS"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "CNYG-697",
+		"NYP_ZZ_FMS_NO1" : "P-6CC030D"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "CNYG-797",
+		"NYP_ZZ_FMS_NO1" : "P-6CC031A"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "CNYG-797",
+		"NYP_ZZ_FMS_NO1" : "P-6CC031A"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "CNYG-897",
+		"NYP_ZZ_FMS_NO1" : "P-6CCREQ7"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "CNYG-1097A",
+		"NYP_ZZ_FMS_NO1" : "P-6CAROOF"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "CNYG-1197",
+		"NYP_ZZ_FMS_NO1" : "P-6CBROOF"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "CNYG-1297",
+		"NYP_ZZ_FMS_NO1" : "P-6CWALRM"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "CNYG-1497",
+		"NYP_ZZ_FMS_NO1" : "P-6CW144D"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "CNYG-1697",
+		"NYP_ZZ_FMS_NO1" : "P-6CWLIFE"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "CNYG-1897",
+		"NYP_ZZ_FMS_NO1" : "P-6CWREQ1"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "CNYG-1997",
+		"NYP_ZZ_FMS_NO1" : "P-6CWREQ2"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "CNYG-2197",
+		"NYP_ZZ_FMS_NO1" : "P-6CWREQ3"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "CNYG-3197",
+		"NYP_ZZ_FMS_NO1" : "P-6CWBOAR"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "B057-297A1",
+		"NYP_ZZ_FMS_NO1" : "P-218C077"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "B073-499A",
+		"NYP_ZZ_FMS_NO1" : "P-200C17A"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "B169-199",
+		"NYP_ZZ_FMS_NO1" : "P-213K11A"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "B321-100M",
+		"NYP_ZZ_FMS_NO1" : "P-202C17Q"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "B357-198A",
+		"NYP_ZZ_FMS_NO1" : "P-209C17B"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "BG-37850-196A",
+		"NYP_ZZ_FMS_NO1" : "P-4BW051B"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "CNYG-1097A",
+		"NYP_ZZ_FMS_NO1" : "P-6CAROOF"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "M010-298A",
+		"NYP_ZZ_FMS_NO1" : "P-3174WAL"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "M028-199A1",
+		"NYP_ZZ_FMS_NO1" : "P-312C18A"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "Q015-198A",
+		"NYP_ZZ_FMS_NO1" : "P-4097710"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "Q015-295A",
+		"NYP_ZZ_FMS_NO1" : "P-409771N"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "Q099-296A",
+		"NYP_ZZ_FMS_NO1" : "P-40013AZ"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "Q099-598A",
+		"NYP_ZZ_FMS_NO1" : "P-4000STA"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "R119-195A1",
+		"NYP_ZZ_FMS_NO1" : "P-501C001"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "X282-198A-OMBP",
+		"NYP_ZZ_FMS_NO1" : "P-101PEOP"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "X282-298A-OMBP",
+		"NYP_ZZ_FMS_NO1" : "P-101PEOP"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "BG-400MA",
+		"NYP_ZZ_FMS_NO1" : "P-2IRRIG"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "M029-599A",
+		"NYP_ZZ_FMS_NO1" : "P-312TRYN"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "M071-298A",
+		"NYP_ZZ_FMS_NO1" : "P-314ISLD"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "Q099-1297A",
+		"NYP_ZZ_FMS_NO1" : "P-4004500"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "Q141-299A",
+		"NYP_ZZ_FMS_NO1" : "P-402019U"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "Q445-193",
+		"NYP_ZZ_FMS_NO1" : "P-407126A"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "Q445-393A",
+		"NYP_ZZ_FMS_NO1" : "P-407126A"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "Q448-197A",
+		"NYP_ZZ_FMS_NO1" : "P-412847J"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "R116-297A",
+		"NYP_ZZ_FMS_NO1" : "P-501DOCK"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "X028-198A",
+		"NYP_ZZ_FMS_NO1" : "P-104KILM"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "X039-199A",
+		"NYP_ZZ_FMS_NO1" : "P-110MONU"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "XG-200MA",
+		"NYP_ZZ_FMS_NO1" : "P-1IRRIG"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "XG-31550-192",
+		"NYP_ZZ_FMS_NO1" : "P-106WFAR"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "Q094-195",
+		"NYP_ZZ_FMS_NO1" : "P-410019A"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "Q099-1096",
+		"NYP_ZZ_FMS_NO1" : "P-400PASB"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "Q099-1097",
+		"NYP_ZZ_FMS_NO1" : "P-40013BJ"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "Q099-1297A",
+		"NYP_ZZ_FMS_NO1" : "P-4004500"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "Q099-696",
+		"NYP_ZZ_FMS_NO1" : "P-400900D"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "Q099-997-OMBP",
+		"NYP_ZZ_FMS_NO1" : "P-40013BJ"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "Q310-195",
+		"NYP_ZZ_FMS_NO1" : "P-413019M"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "Q338-196",
+		"NYP_ZZ_FMS_NO1" : "P-411247A"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "Q360-196",
+		"NYP_ZZ_FMS_NO1" : "P-405019B"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "R030-197A",
+		"NYP_ZZ_FMS_NO1" : "P-502CARO"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "RG-396",
+		"NYP_ZZ_FMS_NO1" : "EXPENSE"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "X030-196",
+		"NYP_ZZ_FMS_NO1" : null
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "X033-195",
+		"NYP_ZZ_FMS_NO1" : "P-107FRIS"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "X039-286A1",
+		"NYP_ZZ_FMS_NO1" : "P-110715C"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "X092-197",
+		"NYP_ZZ_FMS_NO1" : null
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "X151-147",
+		"NYP_ZZ_FMS_NO1" : null
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "X190-195",
+		"NYP_ZZ_FMS_NO1" : "P-102TIFF"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "X265-196\r\n\r\nCalculation Book",
+		"NYP_ZZ_FMS_NO1" : "P-105PLGD"
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "X144-196",
+		"NYP_ZZ_FMS_NO1" : null
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "X092-384",
+		"NYP_ZZ_FMS_NO1" : null
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "X101-297T",
+		"NYP_ZZ_FMS_NO1" : null
+	},
+	{
+		"NYP_ZZ_CONTR_NO1" : "X030-106M",
+		"NYP_ZZ_FMS_NO1" : null
+	}
+]}
