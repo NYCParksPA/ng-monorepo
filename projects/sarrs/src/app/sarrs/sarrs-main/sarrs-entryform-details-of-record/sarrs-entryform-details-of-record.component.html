@@ -1,0 +1,66 @@
+<h3 class="mb-0">Detail of Record</h3>
+<section class="mb-3 border-1 border-round">
+    <p-tabs value="1">
+        <p-tablist>
+            <p-tab value="1">Projects</p-tab>
+            <p-tab value="2">Break-Down</p-tab>
+        </p-tablist>
+
+        <p-tabpanels>
+            <p-tabpanel value="1">
+                <ng-container *ngTemplateOutlet="projectTpl" />
+            </p-tabpanel>
+            <p-tabpanel value="2">
+                Tyab Two
+            </p-tabpanel>
+        </p-tabpanels>
+    </p-tabs>
+    
+</section>
+
+<ng-template #projectTpl>
+    <section class="grid grid-nogutter mb-3 border-1 border-round form-grid-1">
+        <!-- LEFT -->
+        <div class="col-4 p-2">
+            <dl>
+                <dt><label>Record</label></dt>
+                <dd><input type="text" pInputText pSize="small"></dd>
+            </dl>
+
+            <table>
+                <tr><td><i class="pi pi-plus"></i></td><td>X100-10</td><td>Description of something</td></tr>
+                <tr><td><i class="pi pi-plus"></i></td><td>X100-20</td><td>Some Park Some Where</td></tr>
+                <tr><td><i class="pi pi-plus"></i></td><td>X100-40</td><td>what?</td></tr>
+            </table>
+        </div>
+
+        <!-- RIGHT -->
+        <div class="col-8 p-2">
+            <dl>
+                <dt><label>Registration Number</label></dt>
+                <dd><input type="text" pInputText pSize="small"></dd>
+
+                <dt><label>Description</label></dt>
+                <dd><textarea pTextarea rows="5" name="notes" id="notes" placeholder="Notes" class="w-11 border-round"></textarea></dd>
+
+                <dt><label>Dates</label></dt>
+                <dd>
+                    <div class="grid grid-nogutter">
+                        <div class="col-4">
+                            <div class="dateLabel">Order to Work</div>
+                            <input pInputText type="text" [value]="dates[0] | date:'medium'" pSize="small">
+                        </div>
+                        <div class="col-4">
+                            <div class="dateLabel">Final Inspection</div>
+                            <input pInputText type="text" [value]="dates[1] | date:'medium'" pSize="small">
+                        </div>
+                        <div class="col-4">
+                            <div class="dateLabel">Guarantine Inspection</div>
+                            <input pInputText type="text" [value]="dates[2] | date:'medium'" pSize="small">
+                        </div>
+                    </div>
+                </dd>
+            </dl>
+        </div>
+    </section>
+</ng-template>

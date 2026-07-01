@@ -12,22 +12,22 @@
         <ul class="menupanel-menu">
             @for( item of menuItems['user']; track item.id ) {
                 <li>
-                    <p-button [label]="item['label']" />
+                    <div (click)="onMenuClick(item)"><span class="{{item.icon}}"></span> {{item['label']}}</div>
                 </li>
             }
         </ul>
         @if( usermode['selected'] == 'admin' ) {
-            <ul class="menupanel-menu">
+            <ul class="menupanel-menu border-1 border-top-1 border-primary">
                 @for( item of menuItems['admin']; track item?.['id'] ) {
                     <li>
-                    <p-button [label]="item['label']" [icon]="item['icon']" />
-                </li>
+                        <div><span class="{{item.icon}}"></span> {{item['label']}}</div>
+                    </li>
                 }
             </ul>
         }
     </aside>
 
     <div class="col">
-        <app-sarrs-main />
+        <ng-container *ngComponentOutlet="activeMenuItem" />
     </div>
 </section>

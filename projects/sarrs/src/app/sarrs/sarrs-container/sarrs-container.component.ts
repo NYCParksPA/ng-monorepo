@@ -9,10 +9,11 @@ import { FormsModule } from '@angular/forms';
 import { ButtonModule } from 'primeng/button';
 import { SarrsMainComponent } from '../sarrs-main/sarrs-main.component';
 import { SarrsFormComponent } from '../sarrs-form/sarrs-form.component';
+import { SarrsListingsComponent } from '../sarrs-listings/sarrs-listings.component';
 
 @Component({
   selector: 'app-sarrs-container',
-  imports: [CommonModule, SarrsMainComponent,SarrsRecordComponent,SarrsFormComponent, FormsModule, SelectButtonModule, ButtonModule ],
+  imports: [CommonModule, SarrsMainComponent,FormsModule, SelectButtonModule, ButtonModule ],
   templateUrl: './sarrs-container.component.html',
   styleUrls: [ '../sarrs-common.scss', './sarrs-container.component.scss']
 })
@@ -21,15 +22,16 @@ export class SarrsContainerComponent implements OnInit,OnDestroy {
 
   readonly menuItems = {
     user: [
-      { id:1 , key:'retieve', label:'Retrieve Box', action:'', icon:'' },
-      { id:3 , key:'newrecord', label:'New Record', action:'', icon:'' },
-      { id:5 , key:'searchopen', label:'Open Records', action:'', icon:'' },
+      { id:1 , key:'retieve', label:'Retrieve Box', action:'', icon:'pi pi-box', component:null },
+      { id:3 , key:'newrecord', label:'New Record', action:'', icon:'pi pi-pen-to-square', component:SarrsMainComponent },
+      { id:5 , key:'searchopen', label:'List Open Records', action:'', icon:'pi pi-folder-open', component:SarrsListingsComponent },
     ],
     admin: [
       { id:100, key:'barcode-search', label:'Search by Barcode', icon:'pi pi-barcode', action:''}
     ]
   };
-
+  activeMenuItem = null;
+  
   usermode = {
     options: [ {label:"User", value:'user'}, {label:"Admin", value:'admin'} ],
     selected: 'user'
@@ -50,9 +52,16 @@ export class SarrsContainerComponent implements OnInit,OnDestroy {
   }
 
 // ----------------------------------------------------------------------------
+  onMenuClick(item:any) {
+    console.log('onMenuClick:', item);
+    this.activeMenuItem = item.component;
+  }
+
   usermodeSelection(evt: SelectButtonOptionClickEvent) {
     console.log("usermodeSelection:", evt);
     console.log("usermodeSelection:", this.usermode);
   }
+
+
 // ============================================================================
 }
